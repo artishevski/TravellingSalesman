@@ -14,10 +14,6 @@ namespace ConsoleApp1
         {
             GeneticAlgorithm myRoute1 = new GeneticAlgorithm();
             myRoute1.run();
-            int a = 10;
-            int b = a;
-            a = 23;
-            Console.WriteLine(b);
         }
     }
 }
